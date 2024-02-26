@@ -13,7 +13,8 @@ import android.widget.TextView;
 import com.sinhvien.khachsan.R;
 
 public class SplashActivity extends AppCompatActivity {
-    private static int SPLASH_TIMER = 2000;
+    private static final int SPLASH_TIMER = 2000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,15 +33,11 @@ public class SplashActivity extends AppCompatActivity {
         IMGLogo.setAnimation(sideAnim);
         TXTCoffeeshop.setAnimation(sideAnim);
         TXTPowered.setAnimation(bottomAnim);
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-                finish(); //destroy activity khi back sẽ ko về splash
-            }
+        new Handler().postDelayed(() -> {
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            finish(); //destroy activity khi back sẽ ko về splash
         }, SPLASH_TIMER);
     }
 }
