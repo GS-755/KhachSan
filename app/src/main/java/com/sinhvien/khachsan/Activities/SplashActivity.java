@@ -13,7 +13,6 @@ import android.widget.TextView;
 import com.sinhvien.khachsan.R;
 
 public class SplashActivity extends AppCompatActivity {
-
     private static int SPLASH_TIMER = 2000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +41,6 @@ public class SplashActivity extends AppCompatActivity {
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 finish(); //destroy activity khi back sẽ ko về splash
             }
-        },SPLASH_TIMER);
+        }, SPLASH_TIMER);
     }
 }
