@@ -1,4 +1,4 @@
-package com.sinhvien.khachsan.Activities;
+package com.sinhvien.khachsan.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

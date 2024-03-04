@@ -1,13 +1,14 @@
-package com.sinhvien.khachsan.Activities;
+package com.sinhvien.khachsan.activities;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import com.sinhvien.khachsan.R;
 
-public class HomeActivity extends AppCompatActivity {
+public class AddCategoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_layout);
+        setContentView(R.layout.addcategory_layout);
     }
 }

@@ -1,13 +1,13 @@
-package com.sinhvien.khachsan.Activities;
+package com.sinhvien.khachsan.activities;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.sinhvien.khachsan.R;
 
-public class EditTableActivity extends AppCompatActivity {
+public class AddStaffActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.edittable_layout);
+        setContentView(R.layout.addstaff_layout);
     }
 }

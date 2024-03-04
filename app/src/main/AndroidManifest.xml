@@ -8,29 +8,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderDrinkApp">
-        <activity android:name="com.sinhvien.khachsan.Activities.DetailStatisticActivity"></activity>
-        <activity android:name="com.sinhvien.khachsan.Activities.AddStaffActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.DetailStatisticActivity"></activity>
+        <activity android:name="com.sinhvien.khachsan.activities.AddStaffActivity" />
         <activity
-            android:name="com.sinhvien.khachsan.Activities.EditTableActivity"
+            android:name="com.sinhvien.khachsan.activities.EditTableActivity"
             android:label="Sửa phòng"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.PaymentActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.PaymentActivity" />
         <activity
-            android:name="com.sinhvien.khachsan.Activities.AmountMenuActivity"
+            android:name="com.sinhvien.khachsan.activities.AmountMenuActivity"
             android:label="số lượng món"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.AddCategoryActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.AddMenuActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.AddCategoryActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.AddMenuActivity" />
         <activity
-            android:name="com.sinhvien.khachsan.Activities.AddTableActivity"
+            android:name="com.sinhvien.khachsan.activities.AddTableActivity"
             android:label="Thêm phòng"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.HomeActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.LoginActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.Register2ndActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.WelcomeActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.RegisterActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.SplashActivity">
+        <activity android:name="com.sinhvien.khachsan.activities.HomeActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.LoginActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.Register2ndActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.WelcomeActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.RegisterActivity" />
+        <activity android:name="com.sinhvien.khachsan.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,13 +1,13 @@
-package com.sinhvien.khachsan.Activities;
+package com.sinhvien.khachsan.activities;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.sinhvien.khachsan.R;
 
-public class AddMenuActivity extends AppCompatActivity{
+public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addmenu_layout);
+        setContentView(R.layout.login_layout);
     }
 }

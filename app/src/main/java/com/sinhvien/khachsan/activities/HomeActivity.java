@@ -1,13 +1,13 @@
-package com.sinhvien.khachsan.Activities;
+package com.sinhvien.khachsan.activities;
 
-import static com.sinhvien.khachsan.R.layout;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import com.sinhvien.khachsan.R;
 
-public class RegisterActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(layout.register_layout);
+        setContentView(R.layout.home_layout);
     }
 }

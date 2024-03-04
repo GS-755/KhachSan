@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.AddMenuActivity"
+    tools:context=".activities.AddMenuActivity"
     android:orientation="vertical"
     android:padding="30dp"
     android:background="@color/lightwhite"
