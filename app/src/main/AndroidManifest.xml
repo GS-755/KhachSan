@@ -32,7 +32,8 @@
         <activity android:name="com.sinhvien.khachsan.Activities.Register2ndActivity" />
         <activity android:name="com.sinhvien.khachsan.Activities.WelcomeActivity" />
         <activity android:name="com.sinhvien.khachsan.Activities.RegisterActivity" />
-        <activity android:name="com.sinhvien.khachsan.Activities.SplashActivity">
+        <activity android:name="com.sinhvien.khachsan.Activities.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
