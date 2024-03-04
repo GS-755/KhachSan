@@ -9,7 +9,7 @@ public final class AppProperties {
     }
 
     public String getApiUrl() {
-        return "http://192.168.10.130/api/";
+        return "http://192.168.40.128:3030/api/";
     }
 
     public static AppProperties getInstance() {
