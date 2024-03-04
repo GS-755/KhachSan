@@ -10,4 +10,6 @@ public class Register2ndActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register2nd_layout);
     }
+
+
 }

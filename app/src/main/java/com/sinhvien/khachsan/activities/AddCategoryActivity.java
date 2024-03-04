@@ -11,4 +11,5 @@ public class AddCategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addcategory_layout);
     }
+    //using the register_layout.xml to create the register activity
 }
