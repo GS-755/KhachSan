@@ -6,7 +6,7 @@ import java.sql.Date;
 public class User {
     @SerializedName("cccd")
     private String cid;
-    @SerializedName("holot")
+    @SerializedName("hoLot")
     private String firstName;
     @SerializedName("ten")
     private String lastName;
