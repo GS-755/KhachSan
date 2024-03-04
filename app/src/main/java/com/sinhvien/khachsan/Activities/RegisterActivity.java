@@ -10,4 +10,5 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(layout.register_layout);
     }
+    //using the register_layout.xml to create the register activity
 }
